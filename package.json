@@ -1,0 +1,20 @@
+{
+    "name": "landing_page2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "landing_page2",
+    "license": "MIT",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development postcss style/main.css -o public/style/main.css --watch",
+        "build": "cross-env NODE_ENV=production postcss style/main.css -o public/style/main.css"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.3.4",
+        "cross-env": "^7.0.3",
+        "cssnano": "^5.0.8",
+        "postcss": "^8.3.6",
+        "postcss-cli": "^8.3.1",
+        "tailwindcss": "^2.2.15"
+    },
+    "dependencies": {}
+}
